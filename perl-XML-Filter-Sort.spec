@@ -32,8 +32,12 @@ utility which is included with this distribution can be used to sort
 an XML file from the command line without writing Perl code (see
 perldoc xmlsort).
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ jest filtrem SAX do sortowania "rekordów" w dokumentach XML
+(w³±cznie z dokumentami wiêkszymi od dostêpnej pamiêci). Narzêdzie
+xmlsort za³±czone w pakiecie mo¿e byæ u¿ywane do sortowania pliku
+XML z linii poleceñ bez pisania kodu w Perlu (wiêcej informacji w
+perldoc xmlsort).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -57,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
+%{perl_vendorlib}/XML/*/*
 %{_mandir}/man1/*
-%{perl_vendorlib}/%{pdir}/*/*
 %{_mandir}/man3/*
