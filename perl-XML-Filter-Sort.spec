@@ -27,7 +27,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module is a SAX filter for sorting 'records' in XML documents
-(including documents larger than available memory).  The xmlsort
+(including documents larger than available memory). The xmlsort
 utility which is included with this distribution can be used to sort
 an XML file from the command line without writing Perl code (see
 perldoc xmlsort).
