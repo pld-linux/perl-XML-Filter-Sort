@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Sort
+%define		pdir	XML
+%define		pnam	Filter-Sort
 Summary:	XML::Filter::Sort - SAX filter for sorting elements in XML
 Summary(pl):	XML::Filter::Sort - filtr SAX sortuj±cy sk³adniki w XML-u
 Name:		perl-XML-Filter-Sort
