@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Filter-Sort
 Summary:	XML::Filter::Sort - SAX filter for sorting elements in XML
-#Summary(pl):	
+Summary(pl):	XML::Filter::Sort - filtr SAX sortuj±cy sk³adniki w XML-u
 Name:		perl-XML-Filter-Sort
 Version:	0.91
 Release:	1
@@ -27,10 +27,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module is a SAX filter for sorting 'records' in XML documents
-(including documents larger than available memory).  The C<xmlsort>
-utility which is included with this distribution can be used to sort an
-XML file from the command line without writing Perl code (see C<perldoc
-xmlsort>).
+(including documents larger than available memory).  The xmlsort
+utility which is included with this distribution can be used to sort
+an XML file from the command line without writing Perl code (see
+perldoc xmlsort).
 
 # %description -l pl
 # TODO
