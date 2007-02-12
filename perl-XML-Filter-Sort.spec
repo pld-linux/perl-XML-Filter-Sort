@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Sort
 Summary:	XML::Filter::Sort - SAX filter for sorting elements in XML
-Summary(pl):	XML::Filter::Sort - filtr SAX sortuj±cy sk³adniki w XML-u
+Summary(pl.UTF-8):   XML::Filter::Sort - filtr SAX sortujÄ…cy skÅ‚adniki w XML-u
 Name:		perl-XML-Filter-Sort
 Version:	1.01
 Release:	1
@@ -32,11 +32,11 @@ utility which is included with this distribution can be used to sort
 an XML file from the command line without writing Perl code (see
 perldoc xmlsort).
 
-%description -l pl
-Ten modu³ jest filtrem SAX do sortowania "rekordów" w dokumentach XML
-(w³±cznie z dokumentami wiêkszymi od dostêpnej pamiêci). Narzêdzie
-xmlsort za³±czone w pakiecie mo¿e byæ u¿ywane do sortowania pliku
-XML z linii poleceñ bez pisania kodu w Perlu (wiêcej informacji w
+%description -l pl.UTF-8
+Ten moduÅ‚ jest filtrem SAX do sortowania "rekordÃ³w" w dokumentach XML
+(wÅ‚Ä…cznie z dokumentami wiÄ™kszymi od dostÄ™pnej pamiÄ™ci). NarzÄ™dzie
+xmlsort zaÅ‚Ä…czone w pakiecie moÅ¼e byÄ‡ uÅ¼ywane do sortowania pliku
+XML z linii poleceÅ„ bez pisania kodu w Perlu (wiÄ™cej informacji w
 perldoc xmlsort).
 
 %prep
