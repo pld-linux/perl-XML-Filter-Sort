@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-Sort
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Sort - SAX filter for sorting elements in XML
 Summary(pl.UTF-8):	XML::Filter::Sort - filtr SAX sortujący składniki w XML-u
 Name:		perl-XML-Filter-Sort
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1abd77f5555b89b5e745faf6c02068cb
+URL:		http://search.cpan.org/dist/XML-Filter-Sort/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -35,9 +36,9 @@ perldoc xmlsort).
 %description -l pl.UTF-8
 Ten moduł jest filtrem SAX do sortowania "rekordów" w dokumentach XML
 (włącznie z dokumentami większymi od dostępnej pamięci). Narzędzie
-xmlsort załączone w pakiecie może być używane do sortowania pliku
-XML z linii poleceń bez pisania kodu w Perlu (więcej informacji w
-perldoc xmlsort).
+xmlsort załączone w pakiecie może być używane do sortowania pliku XML
+z linii poleceń bez pisania kodu w Perlu (więcej informacji w perldoc
+xmlsort).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
