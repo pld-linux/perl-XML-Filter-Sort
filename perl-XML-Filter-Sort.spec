@@ -8,7 +8,7 @@ Summary:	XML::Filter::Sort - SAX filter for sorting elements in XML
 Summary(pl.UTF-8):	XML::Filter::Sort - filtr SAX sortujący składniki w XML-u
 Name:		perl-XML-Filter-Sort
 Version:	1.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
